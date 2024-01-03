@@ -1,0 +1,89 @@
+@font-face {
+    font-family: bebas;
+    src: url(./assets/fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: oswald;
+    src: url(./assets/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: russo;
+    src: url(./assets/fonts/RussoOne-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+    /* border: solid 1px red; */
+}
+
+nav {
+   .container {
+    background: black;
+    display: flex ;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid grey;
+   }
+
+    .logo {
+        height: 60px;
+    }
+
+    .topbar {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        font-family: bebas;
+        letter-spacing: 1px;
+    }
+
+    .btn {
+        margin: 10px;
+    }
+}
+
+section {
+
+    .presentation {
+        margin: 30px 30px 30px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h1 {
+        font-family: russo;
+        color: black;
+        font-size: 60px;
+        margin: 20px;
+    }
+
+    h2 {
+        font-family: oswald;
+        color: black;
+    }
+
+    .download-btn {
+        background: #0066b8ff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font: 100;
+        padding: 10px;
+        font-weight: 600;
+        border: none;
+
+        p {
+            font-weight: 300;
+        }
+    }
+
+    .download-btn:hover {
+        background: #0b57d0ff;
+    }
+    
+}
