@@ -21,6 +21,11 @@
     /* border: solid 1px red; */
 }
 
+body {
+    background: #2d2d33ff;
+    min-height: 1000px;
+}
+
 nav {
    .container {
     background: black;
@@ -29,6 +34,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     border-bottom: solid grey;
+    padding-right: 10px;
    }
 
     .logo {
@@ -46,6 +52,19 @@ nav {
     .btn {
         margin: 10px;
     }
+
+    .btn:hover {
+        border-bottom: solid;
+    }
+}
+
+.info-banner {
+    background: #0066b8ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding-bottom: 3px;
+    display: flex;
+    justify-content: center;
 }
 
 section {
@@ -59,14 +78,14 @@ section {
     
     h1 {
         font-family: russo;
-        color: black;
-        font-size: 100px;
+        color: white;
+        font-size: 15vw;
         margin: 20px;
     }
 
     h2 {
         font-family: oswald;
-        color: black;
+        color: white;
     }
 
     .download-btn {
@@ -85,5 +104,50 @@ section {
     .download-btn:hover {
         background: #0b57d0ff;
     }
+    
+}
+
+.rien {
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+    background: white;
+    font-family: oswald;
+
+    .container-ft {
+        min-height: 100px;
+
+        a {
+            color: black;
+        }
+
+        p {
+            color: black;
+        }
+
+        .ft-txt-1 {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 20px;
+            padding-top: 10px;
+
+            .f-inc-ft {
+                font-family: russo;
+            }
+        }
+
+        .liens-ft {
+            color: black;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+
     
 }
