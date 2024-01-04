@@ -21,3 +21,5 @@ while (c == 0){
 }
 
 console.log(`Félicitation, vous avez gagné. Le nombre était : `, a)
+
+// hello world !
