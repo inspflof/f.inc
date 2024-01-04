@@ -108,7 +108,7 @@ section {
 }
 
 .rien {
-    margin: 10px;
+    margin: 1000px;
 }
 
 footer {
@@ -145,4 +145,14 @@ footer {
         }
     }
 
+}
+
+section {
+
+    .js-zone {
+        font-size: 30px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
 }
