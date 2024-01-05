@@ -50,7 +50,7 @@ nav {
     }
 
     .btn {
-        margin: 10px;
+        margin: 20px;
     }
 
     .btn:hover {
@@ -65,6 +65,10 @@ nav {
     padding-bottom: 3px;
     display: flex;
     justify-content: center;
+
+    .info-banner-download {
+        text-decoration: underline;
+    }
 }
 
 section {
