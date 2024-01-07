@@ -1,162 +1,161 @@
 @font-face {
-    font-family: bebas;
-    src: url(./assets/fonts/BebasNeue-Regular.ttf);
+  font-family: bebas;
+  src: url(./assets/fonts/BebasNeue-Regular.ttf);
 }
 
 @font-face {
-    font-family: oswald;
-    src: url(./assets/fonts/Oswald-VariableFont_wght.ttf);
+  font-family: oswald;
+  src: url(./assets/fonts/Oswald-VariableFont_wght.ttf);
 }
 
 @font-face {
-    font-family: russo;
-    src: url(./assets/fonts/RussoOne-Regular.ttf);
+  font-family: russo;
+  src: url(./assets/fonts/RussoOne-Regular.ttf);
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-    color: white;
-    /* border: solid 1px red; */
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  color: white;
+  /* border: solid 1px red; */
 }
 
 body {
-    background: #2d2d33ff;
-    min-height: 1000px;
+  background: #2d2d33ff;
+  min-height: 1000px;
 }
 
-nav {
-   .container {
-    background: black;
-    display: flex ;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: solid grey;
-    padding-right: 10px;
-   }
+.container {
+  background: black;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid grey;
+  padding-right: 10px;
+}
 
-    .logo {
-        height: 60px;
-    }
+.logo {
+  height: 60px;
+}
 
-    .topbar {
-        display: flex;
-        align-items: center;
-        list-style: none;
-        font-family: bebas;
-        letter-spacing: 1px;
-    }
+.topbar {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-family: bebas;
+  letter-spacing: 1px;
+}
 
-    .btn {
-        margin: 20px;
-    }
+.btn {
+  margin: 20px;
+  color: white;
+}
 
-    .btn:hover {
-        border-bottom: solid;
-    }
+.btn:hover {
+  border-bottom: solid;
 }
 
 .info-banner {
-    background: #0066b8ff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    padding-bottom: 3px;
-    display: flex;
-    justify-content: center;
-
-    .info-banner-download {
-        text-decoration: underline;
-    }
+  background: #0066b8ff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  padding-bottom: 3px;
+  display: flex;
+  justify-content: center;
 }
 
-section {
+.info-banner1 {
+  color: white;
+}
 
-    .presentation {
-        margin: 30px 30px 30px 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    h1 {
-        font-family: russo;
-        color: white;
-        font-size: 15vw;
-        margin: 20px;
-    }
+.info-banner-download {
+  text-decoration: underline;
+}
 
-    h2 {
-        font-family: oswald;
-        color: white;
-    }
+.presentation {
+  margin: 30px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    .download-btn {
-        background: #0066b8ff;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font: 100;
-        padding: 10px 50px 10px 50px;
-        font-weight: 600;
-        border: none;
+h1 {
+  font-family: russo;
+  color: white;
+  font-size: 15vw;
+  margin: 20px;
+}
 
-        p {
-            font-weight: 300;
-        }
-    }
+h2 {
+  font-family: oswald;
+  color: white;
+}
 
-    .download-btn:hover {
-        background: #0b57d0ff;
-    }
-    
+.download-btn {
+  background: #0066b8ff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font: 100;
+  padding: 10px 50px 10px 50px;
+  font-weight: 600;
+  border: none;
+}
+
+.dld-btn1 {
+  color: white;
+}
+
+p {
+  font-weight: 300;
+}
+
+.download-btn:hover {
+  background: #0b57d0ff;
 }
 
 .rien {
-    margin: 1000px;
+  margin: 1000px;
 }
 
 footer {
-    width: 100%;
-    background: white;
-    font-family: oswald;
-
-    .container-ft {
-        min-height: 100px;
-
-        a {
-            color: black;
-        }
-
-        p {
-            color: black;
-        }
-
-        .ft-txt-1 {
-            display: flex;
-            justify-content: space-evenly;
-            margin: 20px;
-            padding-top: 10px;
-
-            .f-inc-ft {
-                font-family: russo;
-            }
-        }
-
-        .liens-ft {
-            color: black;
-            display: flex;
-            justify-content: space-around;
-        }
-    }
-
+  width: 100%;
+  background: white;
+  font-family: oswald;
 }
 
-section {
+.container-ft {
+  min-height: 100px;
+}
 
-    .js-zone {
-        font-size: 30px;
-        font-weight: 500;
-        display: flex;
-        justify-content: center;
-    }
+a {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+.ft-txt-1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding-top: 10px;
+}
+
+.f-inc-ft {
+  font-family: russo;
+}
+
+.liens-ft {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.js-zone {
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
 }
