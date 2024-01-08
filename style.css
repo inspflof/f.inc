@@ -114,6 +114,15 @@ p {
   background: #0b57d0ff;
 }
 
+.presentation2 {
+  color: white;
+  background: #25252bff;
+  margin: 30px;
+  padding: 1px 0 1px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
 .rien {
   margin: 1000px;
 }

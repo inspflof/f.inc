@@ -1,29 +1,30 @@
-// let a = 0
-// let c=0
+let a = 0
+let c=0
 
-// function getRandomInt(max) {
-//     a = Math.floor(Math.random() * max);
-//   }  
-//   console.log(getRandomInt(1000));
+function getRandomInt(max) {
+    a = Math.floor(Math.random() * max);
+  }  
+  console.log(getRandomInt(1000));
 
-// b = prompt(`Devinez le nombre`)
+b = prompt(`Devinez le nombre`)
 
-// while (c == 0){
-//     if (b>a){
-//         b=prompt(`c'est moins`)
-//     }
-//     else if (b<a){
-//         b=prompt(`c'est plus`)
-//     }
-//     else if (b==a){
-//         c=1
-//         console.log(`Félicitation, vous avez gagné. Le nombre était : `, a)
-//     }
-//     else if (b !== a){
-//         c=1
-//         console.log(`Le caractere `,b,` n'est pas valide`)
-//     }
-// }
+while (c == 0){
+    if (b>a){
+        b=prompt(`c'est moins`)
+    }
+    else if (b<a){
+        b=prompt(`c'est plus`)
+    }
+    else if (b==a){
+        c=1
+        console.log(`Félicitation, vous avez gagné. Le nombre était : `, a)
+    }
+    else if (b !== a){
+        c=1
+        console.log(`Le caractere `,b,` n'est pas valide`)
+    }
+}
+
 // ----------------------------------------------------------
 
 // function candrive (age, pays) {
@@ -38,16 +39,16 @@
 
 // console.log(candrive(19, `FR`))
 
-const a = {
-    firstname: `John`,
-    lastname:`Doe`,
-    fullname: function (){
-        console.log(this.firstname, this.lastname)
-    }
-}
+// const a = {
+//     firstname: `John`,
+//     lastname:`Doe`,
+//     fullname: function (){
+//         console.log(this.firstname, this.lastname)
+//     }
+// }
 
-const mafonction = (p1, p2) =>{
-    console.log(p1, p2)
-}
+// const mafonction = (p1, p2) =>{
+//     console.log(p1, p2)
+// }
 
-mafonction(1,2)
+// mafonction(1,2)
