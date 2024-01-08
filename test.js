@@ -11,11 +11,11 @@ b = prompt(`Devinez le nombre`)
 
 while (c == 0){
     if (b>a){
-        d+1
+        d=d+1
         b=prompt(`c'est moins`)
     }
     else if (b<a){
-        d+1
+        d=d+1
         b=prompt(`c'est plus`)
     }
     else if (b==a){
