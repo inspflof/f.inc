@@ -5,7 +5,7 @@ let d=0
 function getRandomInt(max) {
     a = Math.floor(Math.random() * max);
   }  
-  console.log(getRandomInt(1000));
+  console.log(getRandomInt(100000000));
 
 b = prompt(`Devinez le nombre`)
 
@@ -55,5 +55,3 @@ while (c == 0){
 // }
 
 // mafonction(1,2)
-
-https://prod.liveshare.vsengsaas.visualstudio.com/join?0C89C3FFECF164A6AE3F5E444503AB3EFAFD
