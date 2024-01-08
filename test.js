@@ -20,7 +20,7 @@ while (c == 0){
     }
     else if (b==a){
         c=1
-        console.log(`Félicitation, vous avez gagné. Le nombre était : `, a, `Votre score est de : `,d)
+        console.log(`Félicitation, vous avez gagné. Le nombre était : `, a, `Vous avez fait `,d, `erreurs`)
     }
     else if (b !== a){
         c=1
@@ -55,3 +55,5 @@ while (c == 0){
 // }
 
 // mafonction(1,2)
+
+// https://prod.liveshare.vsengsaas.visualstudio.com/join?2C9CFEED60D546B74DA8A50F4A60C85F824A
