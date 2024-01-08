@@ -1,5 +1,6 @@
 let a = 0
 let c=0
+let d=0
 
 function getRandomInt(max) {
     a = Math.floor(Math.random() * max);
@@ -10,14 +11,16 @@ b = prompt(`Devinez le nombre`)
 
 while (c == 0){
     if (b>a){
+        d+1
         b=prompt(`c'est moins`)
     }
     else if (b<a){
+        d+1
         b=prompt(`c'est plus`)
     }
     else if (b==a){
         c=1
-        console.log(`Félicitation, vous avez gagné. Le nombre était : `, a)
+        console.log(`Félicitation, vous avez gagné. Le nombre était : `, a, `Votre score est de : `,d)
     }
     else if (b !== a){
         c=1
