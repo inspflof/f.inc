@@ -19,6 +19,7 @@
   text-decoration: none;
   color: white;
   /* border: solid 1px red; */
+  box-sizing: border-box;
 }
 
 body {
@@ -51,10 +52,30 @@ body {
 .btn {
   margin: 20px;
   color: white;
+  position: relative;
 }
 
-.btn:hover {
-  border-bottom: solid;
+a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: white;
+  opacity: 0;
+  transition: opacity 300ms, transform 200ms;
+}
+
+li a::after {
+  opacity: 1;
+  transform: scale(0);
+  transform-origin: center;
+}
+
+li a:hover::after,
+li a:focus::after {
+  transform: scale(1);
 }
 
 .info-banner {
@@ -156,7 +177,7 @@ p {
 }
 
 .presentation-contenu {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .rien {

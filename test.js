@@ -4,7 +4,7 @@
 
 // function getRandomInt(max) {
 //     a = Math.floor(Math.random() * max);
-//   }  
+//   }
 //   console.log(getRandomInt(1000));
 
 // b = prompt(`Devinez le nombre`)
@@ -58,10 +58,19 @@
 
 // ------------------------------------
 
-function nbrPremier(nbr) {
-    for(var i = 2; i < nbr; i++)
-      if(nbr%i === 0) return false;
-    return nbr > 1;
-  }
-  
-  console.log(nbrPremier(2));
+// function nbrPremier(nbr) {
+//   for(let i = 2; i < nbr; i++)
+//     if(nbr%i === 0) return false;
+//   return nbr > 1;
+// }
+
+// console.log(nbrPremier(12));
+
+// -----------------------------------------
+
+const word = `kayak`;
+
+function isPalindrome(str) {
+  word.reverse();
+  console.log(word.reverse());
+}
