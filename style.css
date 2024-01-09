@@ -123,6 +123,42 @@ p {
   text-align: center;
 }
 
+.presentation3 {
+  width: 100%;
+  background: #f5f5f5ff;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 0 10px;
+}
+
+.presentation4 {
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 0 10px;
+  flex-direction: row-reverse;
+}
+
+.presentation3-img {
+  width: 50%;
+  margin: 10px 10px 0 10px;
+}
+
+.presentation4-img {
+  width: 50%;
+  margin: 10px 10px 0 10px;
+}
+
+.presentation-title {
+  font-family: bebas;
+  font-size: 30px;
+}
+
+.presentation-contenu {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .rien {
   margin: 1000px;
 }

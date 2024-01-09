@@ -1,32 +1,32 @@
-let a = 0
-let c=0
-let d=0
+// let a=0
+// let c=0
+// let d=0
 
-function getRandomInt(max) {
-    a = Math.floor(Math.random() * max);
-  }  
-  console.log(getRandomInt(100000000));
+// function getRandomInt(max) {
+//     a = Math.floor(Math.random() * max);
+//   }  
+//   console.log(getRandomInt(1000));
 
-b = prompt(`Devinez le nombre`)
+// b = prompt(`Devinez le nombre`)
 
-while (c == 0){
-    if (b>a){
-        d=d+1
-        b=prompt(`c'est moins`)
-    }
-    else if (b<a){
-        d=d+1
-        b=prompt(`c'est plus`)
-    }
-    else if (b==a){
-        c=1
-        console.log(`Félicitation, vous avez gagné. Le nombre était : `, a, `Vous avez fait `,d, `erreurs`)
-    }
-    else if (b !== a){
-        c=1
-        console.log(`Le caractere `,b,` n'est pas valide`)
-    }
-}
+// while (c == 0){
+//     if (b>a){
+//         d=d+1
+//         b=prompt(`c'est moins`)
+//     }
+//     else if (b<a){
+//         d=d+1
+//         b=prompt(`c'est plus`)
+//     }
+//     else if (b==a){
+//         c=1
+//         console.log(`Félicitation, vous avez gagné. Le nombre était : `, a, `Vous avez fait `,d, `erreurs`)
+//     }
+//     else if (b !== a){
+//         c=1
+//         console.log(`Le caractere `,b,` n'est pas valide`)
+//     }
+// }
 
 // ----------------------------------------------------------
 
@@ -55,3 +55,13 @@ while (c == 0){
 // }
 
 // mafonction(1,2)
+
+// ------------------------------------
+
+function nbrPremier(nbr) {
+    for(var i = 2; i < nbr; i++)
+      if(nbr%i === 0) return false;
+    return nbr > 1;
+  }
+  
+  console.log(nbrPremier(2));
