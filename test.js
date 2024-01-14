@@ -1,4 +1,4 @@
-// let a=0
+// let a = 0
 // let c=0
 // let d=0
 
@@ -28,49 +28,52 @@
 //     }
 // }
 
-// ----------------------------------------------------------
+// --------------------------------------------------------
 
-// function candrive (age, pays) {
-//     if (
-//         (age >= 18 && pays === `FR`) ||
-//         (age >= 16 && pays === `US`)
-//     ) {
-//         return true
-//     }
-//     return false
+// const words = prompt(`Donne un mot`);
+
+// function isPalindrome(word) {
+//   let test = word.split(``).reverse().join(``);
+//   if (test == word) {
+//     return true;
+//   } else {
+//     return false;
+//   }
 // }
+// console.log(isPalindrome(words.toUpperCase()));
 
-// console.log(candrive(19, `FR`))
+// -----------------------------------------------------
 
-// const a = {
-//     firstname: `John`,
-//     lastname:`Doe`,
-//     fullname: function (){
-//         console.log(this.firstname, this.lastname)
-//     }
+const students = [
+  {
+    name: "John",
+    notes: [1, 20, 18, 19, 12],
+  },
+  {
+    name: "Jane",
+    notes: [17, 18, 20, 13, 15],
+  },
+  {
+    name: "Sophie",
+    notes: [17, 12, 14, 15, 13],
+  },
+  {
+    name: "Marc",
+    notes: [2, 3, 5, 8, 9],
+  },
+  {
+    name: "Manon",
+    notes: [18, 17, 18, 19, 12],
+  },
+];
+
+const notes = [1, 2, 3];
+const initialValue = 0;
+const total = notes.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValue
+);
+
+// function moyenne (){
+
 // }
-
-// const mafonction = (p1, p2) =>{
-//     console.log(p1, p2)
-// }
-
-// mafonction(1,2)
-
-// ------------------------------------
-
-// function nbrPremier(nbr) {
-//   for(let i = 2; i < nbr; i++)
-//     if(nbr%i === 0) return false;
-//   return nbr > 1;
-// }
-
-// console.log(nbrPremier(12));
-
-// -----------------------------------------
-
-const word = `kayak`;
-
-function isPalindrome(str) {
-  word.reverse();
-  console.log(word.reverse());
-}
