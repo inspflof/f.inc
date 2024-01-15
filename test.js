@@ -67,13 +67,30 @@ const students = [
   },
 ];
 
-const notes = [1, 2, 3];
-const initialValue = 0;
-const total = notes.reduce(
-  (accumulator, currentValue) => accumulator + currentValue,
-  initialValue
-);
+const moyenne = (notes) => {
+  let sum = 0
+  for (let note of notes){
+    sum = sum + note
+  }
+  return sum / notes.length
+}
 
-// function moyenne (){
+const compareStudent = (a,b) => {
+  return b.moyenne - a.moyenne
+}
 
-// }
+for (let student of students){
+  student.moyenne = moyenne(student.notes)
+}
+
+students.sort(compareStudent)
+
+const formatStudent = (student) => {
+  return `${student.name}, avec une moyenne de : ${student.moyenne}/20`
+}
+
+console.log(`Top 3 étudiants :
+1: ${formatStudent(students[0])}
+2: ${formatStudent(students[1])}
+3: ${formatStudent(students[2])}
+`)
